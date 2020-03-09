@@ -42,6 +42,27 @@ the first line of code here means that I'm accessing the express library and ext
 
 **CHAPTER TWO**
 
+The first part of this chapter deals with Mongo DB and creating a new cluster. I didn't know I could only have the one cluster in the free option so I had to delete the previous one and work with this new one. It made em a little nervous to delete the old one though.
+
+After all that was set up we connected by first requiring the dotenv library and adding our Mongo DB url to the .env file.
+
+We called the mongoose library and connected to the db.
+
+The next step was very blurry for me in class so I'm glad it was repeated here and then explained by a classmate. We created a schema or data model next so that the db knows how I want to store my information and so I can see it in that format. I exported the model so I could pass it to a variable and use it in my server.js file.
+
+The next step was to modify the POST method we had created before in order to start adding the tasks to the db.
+
+We then modified our GET method to be able to see our data on the client side constantly. Essentially we told it to search the TodoTask file and find the data  for tasks then render the todo.ejs file with the tasks that have been created in our database (I think?).
+
+What followed was something else that was new to me where we're adding JS code to the .ejs file in order to create new instances of things. I didn't know you could do that.
+
+**UPDATE**
+This part of the tutorial got a little confusing but I think I understood most of it. Essentially we're giving it a route to the thing that we want to edit, then we're asking that it pre-fills the form with the information from that task then find the data for the tasks and render the file for the edits which has the confirm and cancel buttons and the new input box.
+
+Once the changes are done we post to that same id and replacing the content and asking to return an error if there is one.
+
+**DELETE**
+
 
 
 
