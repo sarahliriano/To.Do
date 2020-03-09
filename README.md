@@ -63,6 +63,9 @@ Once the changes are done we post to that same id and replacing the content and 
 
 **DELETE**
 
+For delete we used a similar syntax where we give them a route to the id and used .findByIdAndRemove that li object.
 
+I think this excercise was very useful because it let me analyze line by line the code and try to express it in layman terms which helped me understand the process better. I was also explained by a classmate that this is an old-school way of doing this process because it has to essentially render a new html file for different processes as opposed to dynamically updating the html for each action and it is less effective because of this. I was told this way it keeps all the js on the backend as opposed to having it running on both sides. 
 
+Even if this way is less effective it made it easier for me to understand things. The tutorial helped by explaining the concepts a little but even when it didn't, they were easy to google. I liked the way that the tutorial guided you step by step through the whole thing from scratch as if you've never done this before. It also kind of showed how to connect the front end and back end together a little. It wasn't super explicit but it helped to understand how things work. I understand that we were using templates in this case which I think made things a little more straight-forward.
 
